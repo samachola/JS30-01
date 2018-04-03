@@ -1,0 +1,91 @@
+/*color pallette #DA2C38, #151C2C */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: #DA2C38;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background: #151C2C;
+}
+
+.under {
+    width: 4em;
+    height: .4em;
+    margin: 0 auto;
+    background: linear-gradient(to right, #444, #6b6262);
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10em;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 3em;
+    line-height: 0;
+}
+
+.container .keys {
+    display: flex;
+    flex: 1;
+    min-height: 70vh;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.container .key span {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .5em;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #DA2C38;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #DA2C38;
+}
